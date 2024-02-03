@@ -1,0 +1,29 @@
+{
+  "name": "appmap-node-108-repl",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "packageManager": "yarn@4.1.0",
+  "scripts": {
+    "start:appmap": "appmap-node nest start --watch",
+    "start:dev": "nest start --watch"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^10.3.0",
+    "@nestjs/testing": "^10.3.1",
+    "@types/jest": "^29.5.12",
+    "appmap-node": "^2.14.2",
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "@nestjs/common": "^10.3.1",
+    "@nestjs/core": "^10.3.1",
+    "@nestjs/platform-express": "^10.3.1",
+    "reflect-metadata": "^0.2.1",
+    "rxjs": "^7.8.1",
+    "typescript": "^5.3.3"
+  },
+  "resolutions": {
+    "appmap-node": "git@github.com:getappmap/appmap-node.git#fix/package-names"
+  }
+}
